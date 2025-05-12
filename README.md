@@ -1,0 +1,2 @@
+# resonance
+its all frequency
