@@ -4,6 +4,7 @@ its all frequency
 **Architekturübersicht – UI-gesteuerte Spektraltopographie-Analyse**
 
 ---
+Diese App soll ein Lern-Grundgerüst einer semantischen Pipeline darstellen. AnyData to semantic representation. 
 
 ## 1. Übersicht
 
