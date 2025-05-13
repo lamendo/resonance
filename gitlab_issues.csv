@@ -1,0 +1,16 @@
+Titel,Beschreibung,Etiketten,Priorität,Meilenstein
+Dateiimport: UTF-8 laden,Implementiere die Upload-Komponente und wandle Inhalte in Bytefolgen um.,"UI,Import,Phase1",Hoch,Dateiimport
+Signalvisualisierung,Visualisiere die Bytefolge als Liniendiagramm mit Zoom und Tooltips.,"UI,Signal,Visual",Hoch,Signal
+Normalisierung & Sliding Window,"Baue Normalisierung (Z-Score, Mittelwert) und visuelle Fensterdarstellung.","Analyse,Visual",Mittel,Preprocessing
+Wavelet-Konfiguration,Auswahl von Wavelet-Typen und Berechnung der Transformation.,"Analyse,Wavelet,UI",Hoch,Transformation
+Spektraltopographie-Heatmap,2D-Heatmap oder 3D-Topographie zur Anzeige der Frequenzenergie.,"Visual,Analyse",Hoch,Transformation
+Zonenklassifikation,"Clusterbildung per DBSCAN/KMeans, visualisiere Zone als farbige Regionen.","Zonen,Visual,Clustering",Hoch,Struktur
+Parserinduktion,Extrahiere Regeln aus Zonen (z. B. Trennzeichen) und visualisiere sie.,"Parsing,Regel,Analyse",Hoch,Struktur
+Strukturausgabe,Visualisiere und editierbare Tabelle oder JSON-Ansicht der extrahierten Daten.,"Output,UI",Mittel,Struktur
+RDF-Erzeugung,Erzeuge Tripel aus extrahierten Objekten. Visualisiere sie als RDF-Graph.,"RDF,Ontologie,Export",Hoch,Semantik
+SPARQL-Feedback,Implementiere SPARQL-Editor zur Abfrage und Highlighting im Ursprungssignal.,"Feedback,RDF,SPARQL",Hoch,Semantik
+Workflow-Steuerung,Implementiere Stepper-Komponente zur Navigation der Verarbeitungsschritte.,"UI,Workflow,Navigation",Hoch,Kontrolle
+Snapshot-Vergleich,Vergleich von Zwischenständen und Spektraldaten.,"History,Snapshot",Mittel,Kontrolle
+AppState-Architektur,Definiere globale Zustandsverwaltung mit `AppState`.,"Architektur,State",Hoch,Backend
+Logging-Konsole,Füge Debug/Log-Komponente ein zur Laufzeitkontrolle.,"Debug,UI",Niedrig,Backend
+Testdaten & Demo,"Lade Testdateien (CSV, XML, JSON) und zeige End-to-End-Flow.","Test,Demo",Hoch,Tests
