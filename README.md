@@ -7,7 +7,7 @@ its all frequency
 
 ## 1. Übersicht
 
-Diese Architekturübersicht beschreibt die orchestrierende Struktur deiner UI-Komponenten im System zur spektralanalytischen Parsergenerierung. Sie ordnet jedem UI-Modul seine Rolle, Zustände und Datenflüsse zu und kategorisiert notwendige Visualisierungselemente nach Pflicht, optional und diagnostisch.
+Diese Architekturübersicht beschreibt die orchestrierende Struktur meiner UI-Komponenten im System zur spektralanalytischen Parsergenerierung. Sie ordnet jedem UI-Modul seine Rolle, Zustände und Datenflüsse zu und kategorisiert notwendige Visualisierungselemente nach Pflicht, optional und diagnostisch.
 
 ---
 
